@@ -29,9 +29,6 @@ main {
 }
 
 .banner {
-	background:url('img/mirrorcube.png');
-	background-repeat: no-repeat;
-	background-size:cover;
 	min-height: calc(100vh - 56px);
 	color: #fff;
 }
