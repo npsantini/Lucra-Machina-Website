@@ -9,7 +9,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+#icon {
+	height:50px;
+}
 #myVideo {
 	position:absolute;
 	right: 0;
