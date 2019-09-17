@@ -1,0 +1,150 @@
+* {
+	outline: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#myVideo {
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+}
+
+main {
+	margin-top:56px;
+}
+
+.red {
+	color:red;
+}
+
+.banner {
+	background:url('img/mirrorcube.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height: calc(100vh - 56px);
+	color: #fff;
+}
+
+.banner h1 {
+	margin-top: 40vh;
+	margin-bottom: 25px;
+}
+
+.bannerbtn {
+	padding:15px;
+	border-radius: 5px;
+	background: red;
+	color:#fff;
+	font-size: 20px;
+	border:2px solid #000;
+}
+
+.bannerbtn:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+.bg-dark {
+    background-color: #000!important;
+}
+
+#products {
+	padding-top: 76px;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+    margin: 0 auto;
+    display: block;
+	border:solid 4px red;
+}
+
+.lb {
+	display: none;
+	position: fixed!important;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+  text-align:center;
+}
+
+.lb img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 76px;
+}
+
+.lb:target {
+	outline: none;
+	display: block;
+}
+
+a.lb:hover {cursor:default;}
+img:hover {cursor:pointer;}
+
+
+#team {
+	margin-top:76px;
+}
+
+#productBreadcrumb {
+	margin-top:20px;
+}
+
+a {
+	color:red;
+}
+
+a:hover {
+	color: tomato;
+}
+
+#productPage {
+	margin-top: 86px;
+}
+
+.price {
+	font-weight: bold;
+	font-size:30px;
+}
+
+#specTable {
+	max-width:600px;
+}
+
+.form-control:focus {
+	box-shadow: none!important;
+}
+
+#addToCartBtn {
+	width:100%!important;
+	background: red!important;
+	border-color: #000;
+	line-height: 35px;
+}
+
+#addToCartBtn:hover {
+	background: tomato!important;
+}
+
+#addToCartBtn:focus {
+	box-shadow: none;
+}
+
+#description {
+	margin-top:30px;
+}
+/*#F20505*/
+/*#FF9A08*/
