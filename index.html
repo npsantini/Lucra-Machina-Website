@@ -24,7 +24,7 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-transparent">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#"><img id="icon" src="img/lucra-machina-icon.svg" alt="Lucra Machina Icon">Lucra Machina</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,13 +50,12 @@
 
     <main role="main">
       <div class="container-fluid home banner">
-          <img id="bannerImg" src="img/bg-purple.jpg" alt="lexington skyline banner image">
+          <img id="bannerImg" src="img/bg-5.jpg" alt="lexington skyline banner image">
           <!--<video autoplay muted loop id="myVideo">
             <source src="img/video3.mp4" type="video/mp4">
           </video>-->
         <div class="row">
-          <div class="col-lg-2"> </div>
-          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-duration="1500">
+          <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-duration="1500">
             <!--<img src="img/lucra-machina-logo.svg" alt="Lucra Machina Logo">-->
             <h1>We're Lucra Machina</h1>
             <h2>Where crypto meets AI meets your portfolio</h2>
@@ -64,6 +63,10 @@
             <button id="bannerBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mailchimpModal">
                 Sign up for updates!
               </button>
+          </div>
+          <div class="col-lg-3 phone-banner" data-aos="fade-left" data-aos-duration="1500">
+            <img src="img/phone_white_right.png" alt="phone app">
+            <span class="clear"></span>
           </div>
         </div>
       </div>
@@ -204,24 +207,28 @@
         <hr class="featurette-divider">
         <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-            <img class="rounded-circle" src="img/avatar1.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h3>John Smith</h3>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+            <img class="rounded-circle" src="img/brian-carlson-avatar.jpg" alt="Brian Carlson portrait" width="140" height="140">
+            <h3>Brian “The Robot” Carlson - CEO</h3>
+            <p>Programmer by trade and it’s likely that you’ve interacted with software he’s worked on. He’s written code for physicists, psychologists, civil engineers, medical data researchers, 
+              federal court systems, jet engine designers, and data analytics for grocery chains. With an emphasis in algorithms, artificial intelligence, and machine learning, he’s made a living from finding patterns across disconnected fields and developing software around those common threads.</p>
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
-            <img class="rounded-circle" src="img/avatar3.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h3>Jane Doe</h3>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
+            <img class="rounded-circle" src="img/Megan-Reinhart-avatar.jpg" alt="Megan Reinhart portrait" width="140" height="140">
+            <h3>Megan Reinhart - COO</h3>
+            <p>Mechanical engineer with a working background knowledge of crypto. Studied abroad at the world’s leading university in blockchain and cryptocurrency technology, University of Nicosia in Cyprus for a semester. 
+              They were the first university to accept tuition and other fees in bitcoin. That’s where I was first introduced to blockchain and developed an interest in the technology.</p>
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <!--<div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <img class="rounded-circle" src="img/avatar2.jpg" alt="Generic placeholder image" width="140" height="140">
             <h3>John Doe</h3>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo.</p>
-            <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
-          </div><!-- /.col-lg-4 -->
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div--><!-- /.col-lg-4 -->
+        
         </div><!-- /.row -->
 
 

@@ -35,27 +35,27 @@ main {
 }
 
 .banner h1 {
-	margin-top: 20vh;
+	margin-top: 25vh;
 	margin-bottom: 25px;
 }
 
 button#bannerBtn {
-    background-color: #310334;
+	background-color: rgba(255,255,255,0.2);
     border-color: #fff;
     border-width: 2px;
     padding: 10px;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 button#bannerBtn:hover {
-    background-color: #db0334;
+    background-color: #020b32;
 }
 
 .bannerbtn {
 	padding:15px;
 	border-radius: 5px;
-	background: red;
+	background: #2932c2;
 	color:#fff;
 	font-size: 20px;
 	border:2px solid #000;
@@ -66,8 +66,25 @@ button#bannerBtn:hover {
 	text-decoration: none;
 }
 
+.phone-banner {
+	position: relative;
+	vertical-align: bottom;
+	display: table-cell;
+	overflow:hidden;
+	height: calc(100vh - 56px);
+}
+.phone-banner img{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	vertical-align: bottom;
+	max-height: 90%;
+}
+
+span.clear { clear: left; display: block; }
+
 .bg-dark {
-    background-color: #000!important;
+    background-color: #2932c2!important;
 }
 
 .bg-transparent {
@@ -82,7 +99,7 @@ button#bannerBtn:hover {
     border-radius: 50%!important;
     margin: 0 auto;
     display: block;
-	border:solid 4px red;
+	border:solid 4px #2932c2;
 }
 
 .lb {
@@ -121,11 +138,11 @@ img:hover {cursor:pointer;}
 }
 
 a {
-	color:red;
+	color:#2932c2;
 }
 
 a:hover {
-	color: tomato;
+	color: #2932c2;
 }
 
 #productPage {
@@ -147,13 +164,13 @@ a:hover {
 
 #addToCartBtn {
 	width:100%!important;
-	background: red!important;
+	background: #2932c2!important;
 	border-color: #000;
 	line-height: 35px;
 }
 
 #addToCartBtn:hover {
-	background: tomato!important;
+	background: #2932c2!important;
 }
 
 #addToCartBtn:focus {
