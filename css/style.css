@@ -1,18 +1,19 @@
 * {
-	outline: none;
+	outline: none!important;
 }
 
 *:focus {
-	outline: none;
+	outline: none!important;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 #icon {
 	height:50px;
 }
-#myVideo {
+#myVideo, #bannerImg {
 	position:absolute;
 	right: 0;
 	bottom: 0;
@@ -34,8 +35,21 @@ main {
 }
 
 .banner h1 {
-	margin-top: 40vh;
+	margin-top: 20vh;
 	margin-bottom: 25px;
+}
+
+button#bannerBtn {
+    background-color: #310334;
+    border-color: #fff;
+    border-width: 2px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button#bannerBtn:hover {
+    background-color: #db0334;
 }
 
 .bannerbtn {
@@ -54,6 +68,10 @@ main {
 
 .bg-dark {
     background-color: #000!important;
+}
+
+.bg-transparent {
+	background-color:transparent!important;
 }
 
 #products {
@@ -144,6 +162,20 @@ a:hover {
 
 #description {
 	margin-top:30px;
+}
+
+div#mc_embed_signup input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div#mc_embed_signup input[type="submit"] {
+	margin-bottom:0px;
+}
+
+.indicates-required {
+    float: right;
+    font-size: 12px;
 }
 /*#F20505*/
 /*#FF9A08*/
