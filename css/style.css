@@ -183,7 +183,7 @@ img:hover {cursor:pointer;}
 
 
 #team {
-	padding-top:20px;
+	padding-top:72px;
 	background: url(../img/circles.png);
 	background-color:#fff;
 	padding-bottom:40px;
@@ -272,6 +272,33 @@ div#mc_embed_signup input[type="submit"] {
 	margin-bottom:20px;
 }
 
+#faq {
+	background: url("../img/batthern.png");
+	background-color:#fff;
+	padding-bottom: 20px;
+}
+
+.faq-body {
+	height: 0;
+    overflow: hidden;
+}
+
+.faq-body-open {
+	height:auto;
+}
+.faq-title {
+	background: none;
+    border: none;
+    font-size: 26px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+.faq-title > i {
+    float: right;
+}
 
 
 footer {
