@@ -1,7 +1,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
 
@@ -42,7 +42,7 @@
             </li>
           </ul>
 		  <span class="navbar-text">
-		  <a href="#"><i class="fa fa-user-o red" aria-hidden="true"></i></a>
+		  <a href="#"><i class="fa fa-user-o white" aria-hidden="true"></i></a>
 		</span>
         </div>
       </nav>
@@ -133,8 +133,10 @@
           </div>
           <!-- end modal -->
 
-      <div id="products" class="container">
-        
+      <div id="products" class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
 		<!-- START THE FEATURETTES -->
 		<hr class="featurette-divider">
 		
@@ -143,15 +145,15 @@
         <hr class="featurette-divider">
 
         <div class="row featurette" data-aos="fade-right" data-aos-duration="1500">
-		  <div class="col-md-4">
+		  <div class="col-md-4 order-md-1">
 		  <a href="#one">
-            <img class="featurette-image img-fluid mx-auto" src="img/img1.jpg" style="max-width: 300px;height: 200px;">
+            <img class="featurette-image img-fluid mx-auto" src="img/img1.jpg" style="width:100%;max-width: 300px;height: 200px;">
 			</a>
 			<a href="#_" class="lb" id="one">
 			  <img src="img/img1.jpg">
 			</a>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 order-md-2">
             <h2 class="featurette-heading">Advanced Arb-Bot <span class="text-muted">v3.22</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 			<p><a class="btn btn-secondary" href="products/product1.html" role="button">View details »</a></p>
@@ -198,26 +200,34 @@
         <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->	  
-	  </div>
+    
+        </div>
+      </div>
+      </div>
 	  
-	  <div id="team" class="container marketing">
+	  <div id="team" class="container-fluid marketing">
+      <div class="row">
+          <div class="col-lg-2"></div>
+      <div class="col-lg-8">
 	   <hr class="featurette-divider">
 		<h1 class="text-center featurette-heading">Team</h1>
 		
         <hr class="featurette-divider">
         <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+          <div class="col-lg-5 teamMember" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
             <img class="rounded-circle" src="img/brian-carlson-avatar.jpg" alt="Brian Carlson portrait" width="140" height="140">
-            <h3>Brian “The Robot” Carlson - CEO</h3>
+            <h3>Brian Carlson - CEO</h3>
+            <hr>
             <p>Programmer by trade and it’s likely that you’ve interacted with software he’s worked on. He’s written code for physicists, psychologists, civil engineers, medical data researchers, 
               federal court systems, jet engine designers, and data analytics for grocery chains. With an emphasis in algorithms, artificial intelligence, and machine learning, he’s made a living from finding patterns across disconnected fields and developing software around those common threads.</p>
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-2"></div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
+          <div class="col-lg-5 teamMember" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
             <img class="rounded-circle" src="img/Megan-Reinhart-avatar.jpg" alt="Megan Reinhart portrait" width="140" height="140">
             <h3>Megan Reinhart - COO</h3>
+            <hr>
             <p>Mechanical engineer with a working background knowledge of crypto. Studied abroad at the world’s leading university in blockchain and cryptocurrency technology, University of Nicosia in Cyprus for a semester. 
               They were the first university to accept tuition and other fees in bitcoin. That’s where I was first introduced to blockchain and developed an interest in the technology.</p>
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
@@ -234,14 +244,21 @@
 
         
 
-      </div><!-- /.container -->
+      
+      </div>
+    </div>
+    </div><!-- /.container -->
 
 
       <!-- FOOTER -->
-      <footer class="container">
-	  <hr class="featurette-divider">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2019 Lucra Machina</p>
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2019 Lucra Machina</p>
+          </div>
+        <div>
       </footer>
     </main>
 <!--
